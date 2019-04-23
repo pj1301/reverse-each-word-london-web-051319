@@ -25,8 +25,6 @@ require "pry"
 
 def reverse_each_word(sentence)
   s_array = sentence.reverse.split
-  r_array = []
-  s_array.reverse.collect do |word| #for collect, you should use a . here, but for each you should use an _
-  end
+  s_array.reverse.collect 
   return s_array.join(" ")
 end
