@@ -25,6 +25,6 @@ require "pry"
 
 def reverse_each_word(sentence)
   s_array = sentence.reverse.split
-  s_array.reverse_collect
+  s_array.reverse.collect
   return s_array.join(" ")
 end
